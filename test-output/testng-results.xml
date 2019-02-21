@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="501557" started-at="2018-07-18T22:50:56Z" finished-at="2018-07-18T22:59:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="501557" started-at="2018-07-18T22:50:56Z" finished-at="2018-07-18T22:59:18Z">
+      <class name="com.scoopen.Authenticate.PerfornAuthanticateTest">
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@14425a7]" name="PerformLogic" duration-ms="191705" started-at="2018-07-19T04:21:32Z" data-provider="getTestData" finished-at="2018-07-19T04:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="FAIL" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@14425a7]" name="PerformLogic" duration-ms="76250" started-at="2018-07-19T04:24:51Z" data-provider="getTestData" finished-at="2018-07-19T04:26:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prasad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ Invalid username]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ Invalid username] but found [Invalid username]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ Invalid username] but found [Invalid username]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.scoopen.Authenticate.PerfornAuthanticateTest.PerformLogic(PerfornAuthanticateTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@14425a7]" name="PerformLogic" duration-ms="81939" started-at="2018-07-19T04:26:14Z" data-provider="getTestData" finished-at="2018-07-19T04:27:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Suraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abhi123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invaild password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@14425a7]" name="PerformLogic" duration-ms="38502" started-at="2018-07-19T04:27:43Z" data-provider="getTestData" finished-at="2018-07-19T04:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Suraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="FAIL" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@14425a7]" name="PerformLogic" duration-ms="1917" started-at="2018-07-19T04:28:25Z" data-provider="getTestData" finished-at="2018-07-19T04:28:27Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credential]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.scoopen.emp.business.EmpController.ValidateCredential(EmpController.java:18)
+	at com.scoopen.Authenticate.PerfornAuthanticateTest.PerformLogic(PerfornAuthanticateTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="FAIL" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@14425a7]" name="PerformLogic" duration-ms="38188" started-at="2018-07-19T04:28:30Z" data-provider="getTestData" finished-at="2018-07-19T04:29:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Na]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sushant 123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credential]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Invalid credential] but found [Invalid username]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Invalid credential] but found [Invalid username]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.scoopen.Authenticate.PerfornAuthanticateTest.PerformLogic(PerfornAuthanticateTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+      </class> <!-- com.scoopen.Authenticate.PerfornAuthanticateTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

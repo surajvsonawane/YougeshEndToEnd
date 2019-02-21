@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="3430" started-at="2018-07-18T11:14:22Z" finished-at="2018-07-18T11:14:25Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="3430" started-at="2018-07-18T11:14:22Z" finished-at="2018-07-18T11:14:25Z">
+      <class name="com.scoopen.Authenticate.PerfornAuthanticateTest">
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@18c7aca]" name="PerformLogic" duration-ms="1767" started-at="2018-07-18T16:44:23Z" data-provider="getTestData" finished-at="2018-07-18T16:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@18c7aca]" name="PerformLogic" duration-ms="0" started-at="2018-07-18T16:44:25Z" data-provider="getTestData" finished-at="2018-07-18T16:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prasad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ Invalid username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@18c7aca]" name="PerformLogic" duration-ms="1" started-at="2018-07-18T16:44:25Z" data-provider="getTestData" finished-at="2018-07-18T16:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Suraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abhi123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invaild password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@18c7aca]" name="PerformLogic" duration-ms="0" started-at="2018-07-18T16:44:25Z" data-provider="getTestData" finished-at="2018-07-18T16:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Suraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@18c7aca]" name="PerformLogic" duration-ms="0" started-at="2018-07-18T16:44:25Z" data-provider="getTestData" finished-at="2018-07-18T16:44:25Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credential]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+        <test-method status="PASS" signature="PerformLogic(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.scoopen.Authenticate.PerfornAuthanticateTest@18c7aca]" name="PerformLogic" duration-ms="0" started-at="2018-07-18T16:44:25Z" data-provider="getTestData" finished-at="2018-07-18T16:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ Na]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sushant 123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid credential]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PerformLogic -->
+      </class> <!-- com.scoopen.Authenticate.PerfornAuthanticateTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
